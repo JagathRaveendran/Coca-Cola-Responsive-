@@ -1,0 +1,455 @@
+body
+{
+    background-color: #eeeeee;
+}
+
+
+#headerbox
+{
+    border: 2px;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+}
+#menu
+{
+    float: right;
+}
+.img
+{
+    margin: 25px;
+    background-image: url("img/mazamobile.webp");
+    background-repeat: no-repeat;
+    
+    border: 2px;
+    border-radius: 10px;
+    
+   
+}
+
+#coc1
+{  
+    
+    margin: 20px;
+    width: 330px;
+    border: 2px ;
+    border-radius: 5%;
+}
+.font
+{
+    /* font-size: 120%; */
+    text-align: center;
+
+}
+.b1
+{
+    margin: 5%;
+    border: 2px solid black;
+    padding: 10px 125px;
+    border-radius: 30px;
+    
+}
+#boximg
+{
+    width: 337px;
+    border: 1px;
+    border-radius: 5%;
+}
+#box
+{
+    margin: 5%;
+    border: 2px;
+    width: 337px;
+    border-radius: 5%;
+    background-color: white;
+}
+#content1
+{
+    margin: 30px;
+}
+.b2
+{
+    border: 2px;
+    padding: 1%;
+    font-size: 15px;
+    background-color: transparent;
+}
+#b3
+{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3% 35%;
+    margin: 2%; 
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+#hedd
+{
+   text-align: center;
+    
+}
+.sectionbox
+{
+    border: 2px solid white;
+    background-color: white;
+    padding: 6%;
+    border-radius: 10%;
+}
+#brands
+{
+    margin: 5%;
+}
+#sub
+{
+   display: flex;
+   flex-direction: row;
+   gap: 10%;   
+   row-gap: 30px;
+   padding: 0;
+   flex-wrap: wrap;
+
+   
+}
+#b5
+{
+    border: 2px solid black;
+    padding: 3% 40%;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+#about
+{
+    margin: 5%;
+}
+footer
+{
+    border: 2px solid;
+    background-color: black;
+    color: white;
+   
+}
+#footerend
+{
+    margin: 5%;
+}
+hr
+{
+    color: rgb(176, 176, 176);
+}
+#b6
+{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin: 5%;
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.circle
+{
+    padding-left: 10%;
+}
+
+
+li
+{
+    display: inline;
+}
+.nav
+{
+    visibility: hidden;
+}
+.imgmob
+{
+    padding-left: 6%;
+    
+}
+
+
+
+/* media qurey starts here  */
+
+@media(max-width:390px) and (min-width:0px)
+{
+   
+    .imgmob img
+    {
+        border: 2px solid;
+    }
+    
+    
+  
+   
+}
+
+@media(max-width:768px) and (min-width:391px)
+{
+   
+    .imgtab
+    {
+        margin: 6%;
+        
+        
+    }
+    #coc1
+    {  
+        margin: 1%;
+        width: 740px;
+        border: 2px ;
+        border-radius: 5%;
+    }
+    .b1
+    {
+        margin: 1%;
+        border: 2px solid black;
+        padding: 10px 325px;
+        border-radius: 30px;
+        
+    }
+    #box
+    {
+        margin: 1%;
+        border: 2px;
+        width: 740px;
+        border-radius: 5%;
+        background-color: white;
+    }
+    #boximg
+    {
+        width: 740px;
+        border: 1px;
+        border-radius: 5%;
+    }
+    #b3
+    {
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px 290px;
+        margin: 1%; 
+        border-radius: 30px;
+        background-color: transparent;
+
+    }
+    .sectionbox
+    {
+        border: 2px solid white;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10%;
+    }
+    #sub img
+    {
+        width: 270px;
+    }
+    #b5
+    {
+        border: 2px solid black;
+        padding: 10px 310px;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+    }
+    #b6
+    {
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        margin: 1%;
+        float: right;
+        margin-top: -50px;
+    
+    }
+    .circle img
+    {
+        width: 30px;
+         
+        
+    }
+    .social-links
+    {
+        float: left;
+    }
+    .circle
+    {
+        padding-left: 5px;
+    }
+    .nav
+    {
+        display: none;
+    }
+
+    
+
+    
+    
+}
+@media(max-width:1280px) and (min-width:769px)
+{
+    .imglap img
+    {
+        width: 100%;
+        
+       
+    }
+    #coc1
+    {  
+        margin-right: 6%;
+        width: 500px;
+        float: right;
+        border: 2px ;
+        border-radius: 5%;
+    }
+    .dis
+    {
+        margin-top: 2%;
+    }
+    .co
+    {
+        border: 2px solid #eeeeee;
+        width: 400px;
+        text-align: left;
+        margin: 90px;
+        margin-top: 160px;
+    }
+    .font
+    {
+       font-size: 40px;
+    }
+    #boximg
+    {
+        width: 530px;
+        border: 1px;
+        
+        
+        
+    }
+    #box
+    {
+        margin: 5%;
+        border: 2px;
+        width: 42%;
+        
+        background-color: white;
+       
+        
+    }
+    .flx1
+    {
+       margin-top: -700px;
+        
+       
+
+
+    }
+
+
+
+
+.box1{
+    float: right;
+   
+}
+
+.box2{
+    float: right;
+}
+
+
+#font{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-left: 0%;
+    text-align: center;
+  
+
+
+}
+
+#bgimg 
+{
+    width: 600px;
+    border: 2px;
+    border-radius: 20px;
+   margin-left: 6%;
+    margin-top: -30%;
+}
+#hedd
+{
+    font-size: 40px;
+    margin: 10%px;
+}
+#sub
+{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;   
+    row-gap: 30px;
+    padding: 0;
+    margin-left: 15%;
+}
+.sectionbox
+{
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
+}
+#sub img
+{
+    width: 190px;
+}
+#b5
+{
+    margin: 5%;
+    margin-left: 38%;
+    padding: 1% 10%;
+}
+#social-links img
+{
+ width: 20px;
+
+ 
+}
+#social-links
+{
+
+    float: right;
+    margin-top: -300px;
+}
+.but
+{
+    float: right;
+    margin-top: -60px;
+}
+#fo
+{
+    float: right;
+}
+
+li
+{
+    display: inline;
+}
+.nav
+{
+    visibility: visible;
+    padding-left: 40px;
+}
+#menu
+{
+    display: none;
+}
+.imgmob
+{
+    padding-left: 0%;
+    
+}
+
+
+}
